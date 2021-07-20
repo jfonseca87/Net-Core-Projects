@@ -1,0 +1,33 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        <div>
+            <form action="/Home/Login" method="post">
+                <div>
+                    <input type="text" name="User" value="" placeholder="Usuario"/>
+                </div>
+                <div>
+                    <input type="password" name="Password" value="" placeholder="Contraseña"/>
+                </div>
+                <div>
+                    <input type="submit" name="name" value="Ingresar" />
+                </div>
+            </form>
+        </div>
+        <div style="color:red">
+            @ViewBag.ErrorLogueo
+        </div>
+        
+    </div>
+</body>
+</html>

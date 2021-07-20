@@ -1,0 +1,21 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>PaginaInicio</title>
+</head>
+<body>
+    <div>
+        <a href="@Url.Action("LogOut","Home")">LogOut</a>
+    </div>
+    <div> 
+        <h1>Bienvenido a la pagina de inicio @HttpContext.Current.User.Identity.Name</h1>
+    </div>
+</body>
+</html>
