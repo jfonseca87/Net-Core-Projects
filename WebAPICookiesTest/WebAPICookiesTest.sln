@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPICookiesTest", "WebAPICookiesTest\WebAPICookiesTest.csproj", "{3D97ED2A-9931-458F-A89A-725D8F62EFD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTTestAPIWithCSFRToken", "JWTTestAPIWithCSFRToken\JWTTestAPIWithCSFRToken.csproj", "{CCC8F1BD-E0B1-4C0C-A49D-52099CACF695}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D97ED2A-9931-458F-A89A-725D8F62EFD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D97ED2A-9931-458F-A89A-725D8F62EFD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D97ED2A-9931-458F-A89A-725D8F62EFD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D97ED2A-9931-458F-A89A-725D8F62EFD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCC8F1BD-E0B1-4C0C-A49D-52099CACF695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCC8F1BD-E0B1-4C0C-A49D-52099CACF695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCC8F1BD-E0B1-4C0C-A49D-52099CACF695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCC8F1BD-E0B1-4C0C-A49D-52099CACF695}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41FBD2E5-D2A1-4AAF-AB23-AD9564D7F5E2}
+	EndGlobalSection
+EndGlobal

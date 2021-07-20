@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\JORGE\Desktop\wasm-publish</_PublishTargetUrl>
+    <History>True|2021-04-25T16:02:41.2192187Z;True|2021-04-24T12:11:52.9288233-05:00;True|2021-04-19T21:58:43.0082454-05:00;</History>
+  </PropertyGroup>
+</Project>

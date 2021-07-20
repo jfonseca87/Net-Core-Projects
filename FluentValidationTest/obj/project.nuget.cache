@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "E2+9P/noh5K36LGvZXp5uhSUk7oEAiJ+co3Dynj1UfXvwT/KnQwyl8ZSvP0NFopgr2KFmpcGs7Ri1I1ozj44qw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jfonseca\\source\\repos\\FluentValidationTest\\FluentValidationTest\\FluentValidationTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jfonseca\\.nuget\\packages\\fluentvalidation\\9.2.0\\fluentvalidation.9.2.0.nupkg.sha512",
+    "C:\\Users\\jfonseca\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.2.0\\fluentvalidation.aspnetcore.9.2.0.nupkg.sha512",
+    "C:\\Users\\jfonseca\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.2.0\\fluentvalidation.dependencyinjectionextensions.9.2.0.nupkg.sha512",
+    "C:\\Users\\jfonseca\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

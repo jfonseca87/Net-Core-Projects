@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatMVC", "ChatMVC\ChatMVC.csproj", "{B90D5D0A-E92D-445B-89B8-545DF448C62B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatAPI", "ChatAPI\ChatAPI.csproj", "{66A8E7E8-E0D1-4416-8D97-821D38C3C1E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIs", "APIs", "{F506603B-359F-4162-8BA8-FA9230927C7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{6254428E-09CD-4FA6-9E7F-2B633BEC330C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClientMVC", "ClientMVC", "{B0322CA6-1A86-421E-A83D-7F17FF2C6355}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Angular", "Angular", "{2D76E4D2-D28D-4D4E-87FB-611C8BF68ABA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B90D5D0A-E92D-445B-89B8-545DF448C62B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B90D5D0A-E92D-445B-89B8-545DF448C62B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B90D5D0A-E92D-445B-89B8-545DF448C62B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B90D5D0A-E92D-445B-89B8-545DF448C62B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66A8E7E8-E0D1-4416-8D97-821D38C3C1E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A8E7E8-E0D1-4416-8D97-821D38C3C1E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66A8E7E8-E0D1-4416-8D97-821D38C3C1E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66A8E7E8-E0D1-4416-8D97-821D38C3C1E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B90D5D0A-E92D-445B-89B8-545DF448C62B} = {B0322CA6-1A86-421E-A83D-7F17FF2C6355}
+		{66A8E7E8-E0D1-4416-8D97-821D38C3C1E8} = {F506603B-359F-4162-8BA8-FA9230927C7A}
+		{B0322CA6-1A86-421E-A83D-7F17FF2C6355} = {6254428E-09CD-4FA6-9E7F-2B633BEC330C}
+		{2D76E4D2-D28D-4D4E-87FB-611C8BF68ABA} = {6254428E-09CD-4FA6-9E7F-2B633BEC330C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49833E7E-88BB-4AB4-BDE7-C332AFD2713B}
+	EndGlobalSection
+EndGlobal

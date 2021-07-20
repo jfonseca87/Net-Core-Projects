@@ -1,0 +1,29 @@
+﻿@page "/counter"
+@inject IJSRuntime jsRuntime
+
+<h1>QR Scanner</h1>
+
+<div id="scanner" style="width: 250px;"></div>
+
+@*<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+    <button class="btn btn-primary" @onclick="CallJavaScriptAlert">Call Javascript alert</button>*@
+
+@code {
+    private int currentCount = 0;
+
+    protected async override Task OnAfterRenderAsync(bool firstRender)
+    {
+        await jsRuntime.InvokeVoidAsync("createScanner");
+    }
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+
+    private async Task CallJavaScriptAlert()
+    {
+        await jsRuntime.InvokeVoidAsync("showAlert");
+    }
+}

@@ -1,0 +1,23 @@
+<div>
+  <div>
+    <h1>WebSocket Chat</h1>
+  </div>
+  <div>
+    <label for="">User</label>
+    <input [(ngModel)]="user" type="text">
+  </div>
+  <div>
+    <label for="">Message</label>
+    <input [(ngModel)]="message" type="text">
+  </div>
+  <div>
+    <button (click)="sendMessage()">Send Message</button>
+  </div>
+</div>
+<div>
+  <ul>
+    <li *ngFor="let item of data">
+      {{ item.user }} says: {{ item.message }}
+    </li>
+  </ul>
+</div>
